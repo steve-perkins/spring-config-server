@@ -11,5 +11,5 @@ spring:
           order: 1
         git:
           order: 2
-          uri: https://github.com/spring-cloud-samples/config-repo
+          uri: https://github.com/steve-perkins/spring-config-properties
           basedir: target/config
