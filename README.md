@@ -27,15 +27,15 @@ precedence whenever the same property is found in both.
 
 Setup
 =====
-1. Download [Vault](https://www.vaultproject.io/downloads.html).  It requires no installation, just copy the 
-   executable to some location locally.
-2. In a command-line shell, startup Vault like this:
+* Download [Vault](https://www.vaultproject.io/downloads.html).  It requires no installation, just copy the 
+  executable to some location locally.
+* In a command-line shell, startup Vault like this:
 
 ```
 vault server -dev
 ```
 
-3. In another shell, execute the following commands:
+* In another shell, execute the following commands:
 
 ```
 export VAULT_ADDR=http://127.0.0.1:8200 (Linux / OS X)
@@ -58,12 +58,12 @@ in Vault's tree-like structure.  In real life, you might want to create separate
 and/or applications (at *some* level of granularity), so that you can control access and prevent one application from 
 being able to read another one's secrets.
 
-4. This repo is a Gradle-based project, containing a [Spring Boot](https://projects.spring.io/spring-boot/)-based 
+* This repo is a Gradle-based project, containing a [Spring Boot](https://projects.spring.io/spring-boot/)-based 
    app with a `bootRun` Gradle task for launching it.
    
 ```
 gradlew bootRun 
 ```
 
-5. Proceed to the steps described in the 
+* Proceed to the steps described in the 
 [spring-config-sample-app](https://github.com/steve-perkins/spring-config-sample-app) project README.
